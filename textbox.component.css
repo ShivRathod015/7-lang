@@ -1,0 +1,13 @@
+.textbox_mainn{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.textbox_mainn button{
+    transform: translate(0,-10px);
+    margin-left: 20px;
+}
+mat-form-field{
+    width: 350px;
+    max-width: 400px;
+}

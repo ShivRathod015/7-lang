@@ -1,0 +1,9 @@
+<div class="textbox_mainn">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Enter Your Message</mat-label>
+            <input matInput placeholder="EX. Hello World" name="message" [(ngModel)] = "message">
+        </mat-form-field>
+        <button (click)="sendmessage()" mat-raised-button>Generate Code</button>
+    </form>
+</div>
